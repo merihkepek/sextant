@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+'''
+Implements the Command-line Interface routines.
+'''
+
 from argparse import ArgumentParser
 from datetime import datetime
 from json import dump

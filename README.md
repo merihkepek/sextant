@@ -15,4 +15,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-At this embrionic stage, using the script involves setting up the variables in `map.py` and running it.  In the future it is planned to implement a CLI to ease its usage.
+Run `map.py` to retrieve data from Chronicle and create the layer (use the `-h` option for a full list of arguments):
+
+```sh
+python map.py -i chronicle -a keyfile.json
+```
+
+
+## Name
+According to [Britannica](https://www.britannica.com/technology/sextant-instrument), Sextant is an instrument for determining the angle between the horizon and a celestial body such as the Sun, the Moon, or a star, used in celestial navigation to determine latitude and longitude.
+
+This name was chosen because in a certain way that's what this program does: Maps data from a Threat Detection tool in MITRE Navigator to help teams navigate in Infosec.  =)

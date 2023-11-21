@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 '''
-Simple templates for MITRE ATT&CK Navigator in Python Dictionary format.
+Templates for MITRE ATT&CK Navigator in Python Dictionary format.
 '''
 
 layer_template = {
