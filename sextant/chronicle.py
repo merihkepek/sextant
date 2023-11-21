@@ -114,6 +114,10 @@ def get_techniques(keyfile, color, comment):
         templated.append(tt)
     return templated
 
+
+###
+# Additional code, not used to date.
+#
 def get_rules_csv(keyfile):
     'WIP'
     http_client, session, region_prefix, cbn_region, cli_region = init_webclient(keyfile)
