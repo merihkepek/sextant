@@ -61,3 +61,4 @@ def run():
 
     with open(args.output, 'w') as f:
         dump(layer, f)
+    print(f'Output written in {args.output}')
